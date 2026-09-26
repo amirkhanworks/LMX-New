@@ -1,1 +1,5 @@
-@font-face{font-family:"Space Grotesk";src:url("/fonts/space-grotesk-var.woff2") format("woff2");font-weight:300 700;font-display:swap}@font-face{font-family:"IBM Plex Sans";src:url("/fonts/plex-sans-300.woff2") format("woff2");font-weight:300;font-display:swap}@font-face{font-family:"IBM Plex Sans";src:url("/fonts/plex-sans-400.woff2") format("woff2");font-weight:400;font-display:swap}@font-face{font-family:"IBM Plex Sans";src:url("/fonts/plex-sans-600.woff2") format("woff2");font-weight:600;font-display:swap}@font-face{font-family:"IBM Plex Mono";src:url("/fonts/plex-mono-500.woff2") format("woff2");font-weight:500;font-display:swap}
+@import "@fontsource-variable/space-grotesk/index.css";
+@import "@fontsource/ibm-plex-sans/300.css";
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-mono/500.css";
