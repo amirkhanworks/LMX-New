@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="navyGlow" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#0D1D35"/><stop offset="1" stop-color="#162b4d"/></linearGradient>
+  <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1A5CB8"/><stop offset="1" stop-color="#0D1D35"/></linearGradient>
+  <linearGradient id="warm" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#E8A33D" stop-opacity=".75"/><stop offset="1" stop-color="#E8A33D" stop-opacity="0"/></linearGradient>
+</defs>
+
+<symbol id="hero-living-room" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="url(#navyGlow)"/>
+  <rect x="54" y="12" width="35" height="52" rx="1.5" fill="#14223b" stroke="#FAFAF8" stroke-opacity=".55"/>
+  <path d="M61 53h21V34H61z" fill="#1a3152"/>
+  <path d="M62 50h19v-3H62zM67 44h4v3h-4zM74 40h4v7h-4z" fill="#E8A33D" opacity=".6"/>
+  <circle cx="28" cy="60" r="16" fill="#17263e" stroke="#FAFAF8" stroke-opacity=".35"/>
+  <path d="M15 72h37v10H15z" fill="#FAFAF8" fill-opacity=".12" stroke="#FAFAF8" stroke-opacity=".25"/>
+  <path d="M18 73h31" stroke="#E8A33D" stroke-width="2" opacity=".8"/>
+  <path d="M67 71v16M61 87h12" stroke="#FAFAF8" stroke-opacity=".5"/>
+  <path d="M9 90h82" stroke="#FAFAF8" stroke-opacity=".25"/>
+  <circle cx="62" cy="77" r="4" fill="#E8A33D"/><path d="M62 81v8" stroke="#E8A33D" stroke-width="1.5"/>
+  <path d="M75 11v-6M75 5l-4 3M75 5l4 3" stroke="#FAFAF8" stroke-opacity=".45" stroke-width="1"/>
+  <circle cx="75" cy="8" r="2.2" fill="#0D1D35" stroke="#FAFAF8" stroke-opacity=".55"/>
+  <rect x="92" y="55" width="4" height="11" rx="1" fill="#16213A" stroke="#E8A33D"/>
+</symbol>
+
+<symbol id="room-lights" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#F0E6D7"/>
+  <path d="M0 72h100v28H0z" fill="#D8CCBD"/>
+  <path d="M15 30h30l10 17H5z" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".2"/>
+  <path d="M25 12v18M30 12v18" stroke="#0D1D35" stroke-width="1.5"/>
+  <path d="M12 47c0-12 20-12 20 0v18H12z" fill="#E8A33D" fill-opacity=".22"/>
+  <circle cx="22" cy="46" r="15" fill="url(#warm)"/>
+  <rect x="63" y="55" width="25" height="5" rx="2" fill="#0D1D35" opacity=".65"/>
+  <rect x="67" y="42" width="17" height="13" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".25"/>
+  <circle cx="75.5" cy="48.5" r="3" fill="#E8A33D"/>
+</symbol>
+
+<symbol id="room-fans" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#E9EDF1"/>
+  <path d="M0 72h100v28H0z" fill="#CFD7DF"/>
+  <circle cx="50" cy="28" r="5" fill="#0D1D35"/><path d="M50 28v-9" stroke="#0D1D35" stroke-width="2"/>
+  <path d="M50 28c-22-17-29-4-20 5 7 7 17 3 20 0M54 28c18-19 28-7 22 2-5 8-17 7-22 2M53 33c20 17 9 29-1 22-7-5-5-18-1-22M47 33C29 52 18 42 24 31c5-8 17-6 23 2" fill="#0D1D35" fill-opacity=".12" stroke="#0D1D35" stroke-opacity=".6" stroke-width="1.4"/>
+  <rect x="11" y="56" width="28" height="12" rx="2" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".22"/>
+  <circle cx="18" cy="62" r="3" fill="#E8A33D"/><path d="M54 60h30" stroke="#FAFAF8" stroke-width="4" opacity=".8"/>
+</symbol>
+
+<symbol id="room-leds" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#131F35"/>
+  <path d="M0 75h100v25H0z" fill="#0B1628"/>
+  <path d="M10 20h80v42H10z" fill="#0D1D35" stroke="#FAFAF8" stroke-opacity=".16"/>
+  <path d="M10 25h80M15 20v42M85 20v42" stroke="#E8A33D" stroke-width="1.4"/>
+  <path d="M16 22h68" stroke="#F6D6A4" stroke-width="3" opacity=".9"/>
+  <path d="M17 63h66" stroke="#1A5CB8" stroke-width="3"/>
+  <rect x="28" y="72" width="44" height="8" rx="3" fill="#FAFAF8" fill-opacity=".18"/>
+  <circle cx="50" cy="76" r="3" fill="#E8A33D"/>
+</symbol>
+
+<symbol id="room-tv" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#EFEDE8"/>
+  <rect x="0" y="76" width="100" height="24" fill="#D9D2C7"/>
+  <rect x="17" y="17" width="66" height="37" rx="2" fill="#0D1D35" stroke="#FAFAF8" stroke-opacity=".5"/>
+  <rect x="22" y="22" width="56" height="27" fill="#17345F"/>
+  <path d="M24 46h30l-8-8-8 7-5-4z" fill="#1A5CB8" opacity=".9"/>
+  <circle cx="67" cy="30" r="6" fill="#E8A33D" opacity=".55"/>
+  <path d="M40 59h20M50 54v5" stroke="#0D1D35" stroke-width="2"/>
+  <rect x="13" y="67" width="74" height="7" rx="2" fill="#0D1D35" opacity=".8"/>
+  <circle cx="78" cy="70.5" r="2" fill="#E8A33D"/>
+</symbol>
+
+<symbol id="room-pump" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#EEF2F0"/>
+  <path d="M0 78h100v22H0z" fill="#C9D6D0"/>
+  <path d="M24 20h27v49H24z" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".3"/>
+  <path d="M30 20v-8h15v8M27 48h21" stroke="#0D1D35" stroke-width="2"/>
+  <path d="M38 31c0 10-8 12-8 20a8 8 0 0 0 16 0c0-8-8-10-8-20z" fill="#1A5CB8" fill-opacity=".18" stroke="#1A5CB8" stroke-width="1.6"/>
+  <path d="M51 46h23v18H51z" fill="#0D1D35" fill-opacity=".8"/>
+  <path d="M74 52h13v7H74zM87 52v-9M87 43h-7" fill="none" stroke="#E8A33D" stroke-width="2"/>
+  <circle cx="62.5" cy="55" r="3" fill="#E8A33D"/>
+  <path d="M10 86h80" stroke="#0D1D35" stroke-opacity=".15"/>
+</symbol>
+
+<symbol id="room-security" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#EDEAE4"/>
+  <path d="M0 68h100v32H0z" fill="#D7CEC0"/>
+  <path d="M12 68V40l38-22 38 22v28z" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".35"/>
+  <path d="M25 68V49h20v19M56 68V49h20v19" fill="#EEF2F7" stroke="#0D1D35" stroke-opacity=".2"/>
+  <rect x="47" y="28" width="15" height="9" rx="2" fill="#0D1D35"/>
+  <circle cx="54.5" cy="32.5" r="3" fill="#E8A33D"/>
+  <path d="M54.5 37v20" stroke="#E8A33D" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <circle cx="54.5" cy="58" r="8" fill="#1A5CB8" fill-opacity=".12" stroke="#1A5CB8"/>
+</symbol>
+
+<symbol id="room-curtains" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#F4EFE6"/>
+  <rect x="21" y="17" width="58" height="56" fill="#C8D7E4" stroke="#0D1D35" stroke-opacity=".28"/>
+  <path d="M13 13h74" stroke="#0D1D35" stroke-width="3"/>
+  <path d="M14 14c5 11 7 25 6 59M27 14c4 11 4 30 2 59M73 14c-4 11-4 30-2 59M86 14c-5 11-7 25-6 59" fill="#E8A33D" fill-opacity=".14" stroke="#E8A33D" stroke-width="2"/>
+  <path d="M0 76h100v24H0z" fill="#DCCFBE"/>
+  <circle cx="50" cy="50" r="10" fill="#FAFAF8" fill-opacity=".65"/>
+</symbol>
+
+<symbol id="room-ac" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#EAF0F5"/>
+  <path d="M0 78h100v22H0z" fill="#D3DCE3"/>
+  <rect x="13" y="18" width="74" height="20" rx="4" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".35"/>
+  <path d="M21 31h58" stroke="#1A5CB8" stroke-width="2"/>
+  <path d="M28 41v22M42 41v22M56 41v22M70 41v22" stroke="#0D1D35" stroke-opacity=".18"/>
+  <circle cx="77" cy="28" r="3" fill="#E8A33D"/>
+  <path d="M16 72h68" stroke="#0D1D35" stroke-opacity=".15"/>
+</symbol>
+
+<symbol id="moving-day" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#F2EFEA"/>
+  <path d="M0 76h100v24H0z" fill="#D9D0C4"/>
+  <path d="M10 58 29 45l19 9-18 14z" fill="#D9A35C" stroke="#0D1D35" stroke-opacity=".35"/>
+  <path d="m29 45 1 23M10 58l18 10M48 54v13" stroke="#0D1D35" stroke-opacity=".25"/>
+  <path d="M52 66 74 51l16 9-20 17z" fill="#C78F4E" stroke="#0D1D35" stroke-opacity=".35"/>
+  <path d="M74 51v26M52 66l18 11M90 60v13M70 77l20-17" stroke="#0D1D35" stroke-opacity=".25"/>
+  <rect x="66" y="30" width="17" height="10" rx="2" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".3"/>
+  <circle cx="74.5" cy="35" r="3" fill="#E8A33D"/>
+  <path d="M17 83h70" stroke="#0D1D35" stroke-opacity=".16"/>
+</symbol>
+
+<symbol id="pcb-macro" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="url(#blueGlow)"/>
+  <rect x="12" y="12" width="76" height="76" rx="4" fill="#0D1D35" stroke="#FAFAF8" stroke-opacity=".35"/>
+  <path d="M20 30h20v16H20zM61 20h16v20H61zM44 58h20v18H44zM20 58h15v18H20z" fill="#16294A" stroke="#1A5CB8"/>
+  <path d="M20 38h30M50 20v14M50 34h12M36 66h8M64 66h13M71 40v18" fill="none" stroke="#E8A33D" stroke-width="1.7"/>
+  <circle cx="29" cy="38" r="3" fill="#E8A33D"/><circle cx="71" cy="58" r="3" fill="#E8A33D"/>
+  <path d="M20 50h18v6M38 50h20v8M58 42v8h12" fill="none" stroke="#FAFAF8" stroke-opacity=".5"/>
+</symbol>
+
+<symbol id="camelx" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#D8C2A3"/>
+  <path d="M0 70c20-14 33-8 51-4 16 3 28-2 49 4v30H0z" fill="#B58B57"/>
+  <path d="M21 68c1-9 3-13 8-17 3-3 8-4 12-2 4-7 10-7 14-2 3 4 1 8-2 11 8 0 14 3 16 10-3 5-9 7-17 6H21z" fill="#7B5A3A"/>
+  <path d="M62 58c5-4 7-10 6-15-1-5 1-7 5-8 3 0 5 4 4 7-2 4-1 10 3 14 5 6 3 10-2 13l-10 1-9-5z" fill="#7B5A3A"/>
+  <path d="M35 73v14M50 72v15M72 71v15" stroke="#513D2A" stroke-width="3"/>
+  <rect x="44" y="53" width="9" height="4" rx="1" fill="#E8A33D"/><circle cx="48.5" cy="55" r="1.5" fill="#0D1D35"/>
+  <path d="M9 82h82" stroke="#FAFAF8" stroke-opacity=".45"/>
+</symbol>
+
+<symbol id="soil-health" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#E5EFE5"/>
+  <path d="M0 56h100v44H0z" fill="#9D7D55"/>
+  <path d="M0 64c22-10 33-7 51 2 17 8 30 8 49 0v34H0z" fill="#785C43"/>
+  <path d="M14 59c10-6 21-6 30 0M55 60c10-5 21-5 31 0" fill="none" stroke="#E8A33D" stroke-width="2"/>
+  <path d="M44 30v42" stroke="#0D1D35" stroke-width="3"/><circle cx="44" cy="30" r="5" fill="#1A5CB8" stroke="#FAFAF8"/>
+  <path d="M44 38h23v16H44z" fill="#FAFAF8" stroke="#0D1D35" stroke-opacity=".28"/>
+  <circle cx="51" cy="46" r="3" fill="#E8A33D"/><path d="M57 46h5" stroke="#1A5CB8" stroke-width="2"/>
+  <path d="M20 84c4-8 10-8 14 0 4-7 10-8 14 0 4-8 10-8 14 0 4-7 10-8 14 0" fill="none" stroke="#C6A678" stroke-width="2"/>
+</symbol>
+</svg>
