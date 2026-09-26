@@ -38,3 +38,8 @@
 .bridge__path--business{background:var(--navy);color:var(--paper);border-left:1px solid var(--paper-10)}
 .bridge__path--home .btn--paper{background:var(--ink);color:var(--paper)}
 @media(max-width:991px){.bridge{grid-template-columns:1fr;min-height:auto}.bridge__intro{padding:12vh var(--gutter) 8vh}.bridge__paths{grid-template-columns:1fr;border-left:0}.bridge__path{padding:8vh var(--gutter)}.bridge__path--business{border-left:0;border-top:1px solid var(--paper-10)}}
+
+
+/* P1 safety explanation */
+.safe__intro{max-width:52ch;color:var(--paper-60);margin:1rem 0 2.5rem}
+@media(max-width:991px){.safe__intro{margin-bottom:2rem}}
