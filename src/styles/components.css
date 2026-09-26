@@ -2,3 +2,12 @@
 
 /* P1 navigation state */
 .nav__link[aria-current="page"]{color:var(--amber);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.35em}
+
+
+/* P2 accessibility and interaction polish */
+:focus-visible{outline:2px solid var(--amber);outline-offset:4px}
+button,a,input,textarea,select{touch-action:manipulation}
+.nav__link,.footer a,.btn{transition:color var(--dur-s) var(--ease-css),background-color var(--dur-s) var(--ease-css),border-color var(--dur-s) var(--ease-css),transform var(--dur-s) var(--ease-css)}
+.footer a{text-underline-offset:.25em}
+.footer a:hover{text-decoration:underline}
+@media(prefers-reduced-motion:reduce){.btn:hover{transform:none}.nav__link,.footer a,.btn{transition:none}}
