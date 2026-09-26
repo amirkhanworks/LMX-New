@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title>Luminox Automation</title>
+<desc>Luminox Automation brand mark</desc>
+<rect width="64" height="64" rx="32" fill="#fff"/>
+<circle cx="32" cy="32" r="29" fill="none" stroke="#0D1D35" stroke-width="1.5"/>
+<g transform="translate(18 16)">
+  <path d="M14 0 28 8v16L14 32 0 24V8Z" fill="#0D1D35"/>
+  <path d="M14 0v16l14-8" fill="#E8A33D"/>
+  <path d="M14 16 0 8v16l14 8Z" fill="#1A5CB8"/>
+  <path d="m14 16 14-8v16l-14 8Z" fill="#E8A33D"/>
+  <path d="M14 4 22 9v10l-8 5-8-5V9Z" fill="#fff"/>
+  <path d="M14 4v10l8-5" fill="#E8A33D"/>
+  <path d="M14 14 6 9v10l8 5Z" fill="#1A5CB8"/>
+  <path d="m14 14 8-5v10l-8 5Z" fill="#E23B2E"/>
+</g>
+</svg>
