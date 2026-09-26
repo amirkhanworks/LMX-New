@@ -107,3 +107,11 @@
   .zoom__grid{margin-top:1.75rem}
   .cta .display{font-size:clamp(3rem,14vw,6rem)}
 }
+
+/* Founder image fallback: branded identity marks, never broken image boxes */
+.founder-mark{display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(145deg,var(--navy),var(--blue));color:var(--paper)}
+.founder-mark::before,.founder-mark::after{content:"";position:absolute;border:1px solid var(--paper-30);border-radius:50%;inset:14%;transform:rotate(18deg)}
+.founder-mark::after{inset:26%;border-color:var(--amber);transform:rotate(-18deg)}
+.founder-mark__grid{position:relative;z-index:1;display:grid;place-items:center;text-align:center;gap:.75rem;padding:1rem}
+.founder-mark__grid span{font:600 clamp(2.5rem,5vw,4.5rem)/1 var(--font-display);letter-spacing:-.06em}
+.founder-mark__grid small{font:500 .65rem/1.4 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--paper-60);max-width:18ch}
