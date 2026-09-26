@@ -65,7 +65,7 @@
 .testimonial>p{font-size:clamp(1.25rem,2vw,2rem);line-height:1.25;margin:0 0 2rem}
 .testimonial footer{display:flex;align-items:center;gap:1rem}
 .testimonials__note{margin-top:1.5rem;color:var(--ink-60)}
-@media(max-width:991px){.proof,.testimonials{padding:12vh var(--gutter)}.proof__grid{grid-template-columns:1fr 1fr;margin-top:3rem}.testimonials__grid{grid-template-columns:1fr;margin-top:3rem}.testimonial{padding:1.75rem}}
+@media(max-width:991px){.proof,.testimonials{padding:12vh var(--gutter)}.proof__grid{grid-template-columns:1fr 1fr;margin-top:3rem}.proof__grid article+article{border-left:0}.testimonials__grid{grid-template-columns:1fr;margin-top:3rem}.testimonial{padding:1.75rem}}
 @media(max-width:560px){.proof__grid{grid-template-columns:1fr}.proof__grid article{min-height:0}}
 
 
