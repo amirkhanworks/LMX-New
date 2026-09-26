@@ -50,3 +50,20 @@
 .keychain__story>div{border-top:1px solid var(--paper-10);padding-top:1rem}
 .keychain__story>div p:last-child{color:var(--paper-60);max-width:24ch}
 @media(max-width:991px){.keychain__story{grid-template-columns:1fr;gap:1.5rem;margin:2rem 0}}
+
+
+/* P1 trust and testimonials */
+.proof,.testimonials{padding:14vh var(--gutter)}
+.proof__intro,.testimonials__intro{max-width:760px}
+.proof__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--ink-10);border:1px solid var(--ink-10);margin-top:4rem}
+.proof__grid article{background:var(--paper);padding:2rem;min-height:230px}
+.proof__grid strong{display:block;font:600 clamp(1.35rem,2vw,2rem)/1.1 var(--font-display);margin:2rem 0 .75rem}
+.proof__grid p:last-child{max-width:25ch;color:var(--ink-60)}
+.testimonials{border-top:1px solid var(--ink-10)}
+.testimonials__grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:4rem}
+.testimonial{margin:0;padding:2.5rem;border:1px solid var(--ink-10);border-radius:var(--radius);background:var(--paper)}
+.testimonial>p{font-size:clamp(1.25rem,2vw,2rem);line-height:1.25;margin:0 0 2rem}
+.testimonial footer{display:flex;align-items:center;gap:1rem}
+.testimonials__note{margin-top:1.5rem;color:var(--ink-60)}
+@media(max-width:991px){.proof,.testimonials{padding:12vh var(--gutter)}.proof__grid{grid-template-columns:1fr 1fr;margin-top:3rem}.testimonials__grid{grid-template-columns:1fr;margin-top:3rem}.testimonial{padding:1.75rem}}
+@media(max-width:560px){.proof__grid{grid-template-columns:1fr}.proof__grid article{min-height:0}}
