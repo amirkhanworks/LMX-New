@@ -43,3 +43,10 @@
 /* P1 safety explanation */
 .safe__intro{max-width:52ch;color:var(--paper-60);margin:1rem 0 2.5rem}
 @media(max-width:991px){.safe__intro{margin-bottom:2rem}}
+
+
+/* P1 keychain story */
+.keychain__story{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2.5rem 0}
+.keychain__story>div{border-top:1px solid var(--paper-10);padding-top:1rem}
+.keychain__story>div p:last-child{color:var(--paper-60);max-width:24ch}
+@media(max-width:991px){.keychain__story{grid-template-columns:1fr;gap:1.5rem;margin:2rem 0}}
