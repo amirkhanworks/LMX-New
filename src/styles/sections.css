@@ -73,3 +73,37 @@
 .reduce-motion .hero__screen,.reduce-motion .rooms__screen,.reduce-motion .safe__screen,.reduce-motion .close__screen{position:relative;top:auto}
 .reduce-motion .hero,.reduce-motion .safe,.reduce-motion .close{height:auto}
 .reduce-motion [data-reveal],.reduce-motion [data-hero-in]{opacity:1!important;transform:none!important}
+
+/* Live visual reliability + theme contrast */
+.scene{display:block;width:100%;height:100%;max-width:none}
+.hero__bg>.scene{position:absolute;inset:0}
+.panel__media>.scene,.renter__block .panel__media>.scene{position:absolute;inset:0}
+.eng-hero__media>.scene,.case-card__media>.scene{width:100%;height:100%;object-fit:cover}
+.nav.theme_on-light{color:var(--ink)}
+.nav.theme_on-dark,.nav.theme_on-color{color:var(--paper)}
+.nav.theme_on-light .btn--nav{background:var(--ink);color:var(--paper)}
+.nav.theme_on-dark .nav__link,.nav.theme_on-color .nav__link{color:var(--paper)}
+.nav.theme_on-dark .nav__link[aria-current="page"],.nav.theme_on-color .nav__link[aria-current="page"]{color:var(--amber)}
+.preloader{-webkit-mask-image:none!important;mask-image:none!important}
+.zoom__over{z-index:2}
+.zoom__over>div{width:min(1200px,100%);margin:auto}
+.zoom__grid{margin-top:2.5rem;transform-origin:center center!important}
+.ctrl{min-height:190px;display:grid;align-content:start}
+.zoom__under{z-index:0}
+.zoom__under .display{opacity:.08}
+.safe__screen{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.8fr);align-items:center;gap:5vw;padding:var(--gutter)}
+.safe__copy{grid-column:1;max-width:760px;padding:0;z-index:2}
+.safe__diagram{position:relative;inset:auto;grid-column:2;grid-row:1;width:100%;height:auto;min-height:320px;display:grid;place-items:center;z-index:1}
+.safe__diagram img,.safe__diagram .scene{width:100%;height:auto;opacity:.9}
+[data-curtain-l],[data-curtain-r]{display:none!important}
+.close{height:auto!important;background:var(--navy)}
+.close__screen{position:relative!important;top:auto!important;height:auto!important;min-height:0!important;isolation:auto}
+.footer--fixed,.footer--fixed.is-active{position:relative!important;inset:auto!important;z-index:1!important;visibility:visible!important}
+.cta .display{font-size:clamp(4rem,9vw,9rem);max-width:14ch;margin-inline:auto}
+@media(max-width:991px){
+  .safe__screen{grid-template-columns:1fr;display:grid;padding:14vh var(--gutter)}
+  .safe__copy{grid-column:1;grid-row:1}
+  .safe__diagram{grid-column:1;grid-row:2;min-height:260px;margin-top:1rem}
+  .zoom__grid{margin-top:1.75rem}
+  .cta .display{font-size:clamp(3rem,14vw,6rem)}
+}
