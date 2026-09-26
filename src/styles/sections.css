@@ -67,3 +67,9 @@
 .testimonials__note{margin-top:1.5rem;color:var(--ink-60)}
 @media(max-width:991px){.proof,.testimonials{padding:12vh var(--gutter)}.proof__grid{grid-template-columns:1fr 1fr;margin-top:3rem}.testimonials__grid{grid-template-columns:1fr;margin-top:3rem}.testimonial{padding:1.75rem}}
 @media(max-width:560px){.proof__grid{grid-template-columns:1fr}.proof__grid article{min-height:0}}
+
+
+/* P2 reduced-motion safety */
+.reduce-motion .hero__screen,.reduce-motion .rooms__screen,.reduce-motion .safe__screen,.reduce-motion .close__screen{position:relative;top:auto}
+.reduce-motion .hero,.reduce-motion .safe,.reduce-motion .close{height:auto}
+.reduce-motion [data-reveal],.reduce-motion [data-hero-in]{opacity:1!important;transform:none!important}
