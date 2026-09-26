@@ -1,0 +1,1 @@
+import {ScrollTrigger} from "../core/tokens.js";export function initVideos({reduced}){document.querySelectorAll("video[data-loop]").forEach(v=>{v.muted=true;if(reduced)return;const play=()=>v.play().catch(()=>{}),pause=()=>v.pause();ScrollTrigger.create({trigger:v,start:"top bottom",end:"bottom top",onEnter:play,onEnterBack:play,onLeave:pause,onLeaveBack:pause})})}

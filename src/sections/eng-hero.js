@@ -1,0 +1,1 @@
+import {gsap,durL} from "../core/tokens.js";export function initEngHero({reduced}){const frame=document.querySelector("[data-eng-hero]");if(!frame||reduced)return;gsap.set(frame,{clipPath:"circle(0% at 50% 50%)"});document.addEventListener("lmx:ready",()=>gsap.to(frame,{clipPath:"circle(75% at 50% 50%)",duration:durL,ease:"Out"}),{once:true})}

@@ -1,0 +1,1 @@
+import {gsap} from "../core/tokens.js";export function initRenterSplit({reduced}){const sec=document.querySelector("[data-renter]");if(!sec||reduced)return;const rule=sec.querySelector("[data-renter-rule]");if(rule)gsap.fromTo(rule,{clipPath:"inset(0 0 100% 0)"},{clipPath:"inset(0 0 0 0)",ease:"none",scrollTrigger:{trigger:sec,start:"top top",end:"bottom bottom",scrub:.5}})}

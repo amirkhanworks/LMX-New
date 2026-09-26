@@ -1,0 +1,1 @@
+import {ScrollTrigger} from "./tokens.js";export const onDocScroll=(fn)=>ScrollTrigger.create({trigger:document.documentElement,start:0,end:"max",onUpdate:fn});

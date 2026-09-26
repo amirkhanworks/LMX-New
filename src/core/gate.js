@@ -1,0 +1,1 @@
+export async function gate(){await document.fonts.ready;const hero=document.querySelector("[data-hero-img]");if(hero){await new Promise(r=>hero.complete?r():hero.addEventListener("load",r,{once:true}));try{await hero.decode()}catch{}}await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));document.dispatchEvent(new CustomEvent("lmx:ready"));}

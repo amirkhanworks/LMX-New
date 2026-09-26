@@ -1,0 +1,1 @@
+export function initGroups(){/* group behaviour is handled by primitives.js; kept as a module boundary per contract. */}

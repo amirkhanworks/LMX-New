@@ -1,0 +1,26 @@
+{
+  "name": "luminox-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/check-content.mjs dist",
+    "preview": "vite preview",
+    "fonts": "node scripts/fonts.mjs",
+    "images": "node scripts/images.mjs",
+    "video": "bash scripts/video.sh",
+    "check": "node scripts/check-content.mjs dist"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/space-grotesk": "^5.2.5",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "sharp": "^0.34.0",
+    "vite": "^7.0.0"
+  }
+}

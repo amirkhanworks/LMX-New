@@ -1,0 +1,1 @@
+import {gsap,durL} from "../core/tokens.js";export function initImgScale({reduced}){if(reduced)return;document.querySelectorAll("[data-img-scale]").forEach(el=>gsap.fromTo(el,{scale:1.15},{scale:1,duration:durL,ease:"Out",scrollTrigger:{trigger:el,start:"top 85%",once:true}}))}
